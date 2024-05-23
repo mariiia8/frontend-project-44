@@ -6,11 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type":"module",
+  "type": "module",
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node": "^22.2.0"
+  "bin": {
+    "brain-games": "bin/brain-games.js"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "node": "^22.2.0",
+    "readline-sync": "^1.4.10"
+  }
 }
