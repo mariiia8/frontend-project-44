@@ -6,7 +6,7 @@ const gameBody = (description, taskFunc) => {
   console.log(description);
   let mark = 0;
   for (let i = 1; i <= 3; i += 1) {
-    const step = taskFunc(); 
+    const step = taskFunc();
 
     console.log(`Question: ${step[0]}`);
     const answer = readlineSync.question('Answer: ');

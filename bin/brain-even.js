@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 import gameBody from '../src/gameBody.js';
 import task from '../games/even.js';
 

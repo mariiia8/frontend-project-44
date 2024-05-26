@@ -6,7 +6,7 @@ const task = () => {
   } else {
     a = 'no';
   }
- 
+
   return [q, a];
 };
 export default task;
