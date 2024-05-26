@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import greeting from '../cli.js';
+import greeting from './cli.js';
 
 const gameBody = (description, taskFunc) => {
   const playerName = greeting();
