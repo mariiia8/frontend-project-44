@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import gameBody from "../src/gameBody.js";
+import gameBody from '../src/gameBody.js';
 
 import task2 from '../games/calc.js';
 

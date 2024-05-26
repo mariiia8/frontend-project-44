@@ -1,14 +1,12 @@
-
 const task = () => {
-    const q = Math.round(Math.random() * 100);
-   // const a = q % 2; 
-   let a = '';
-   if (q % 2 === 0) {
-     a = 'yes';
-   } else {
-     a = 'no';
-   }
+  const q = Math.round(Math.random() * 100);
+  let a = '';
+  if (q % 2 === 0) {
+    a = 'yes';
+  } else {
+    a = 'no';
+  }
  
-   return [q, a];
+  return [q, a];
 };
 export default task;
