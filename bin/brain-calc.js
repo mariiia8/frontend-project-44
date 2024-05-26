@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { describe } from "node:test";
 import gameBody from "../src/gameBody.js";
+
 const task2 = () => {
     const operand1 = Math.round(Math.random() * 10);
     const operand2 = Math.round(Math.random() * 10);
@@ -24,6 +24,6 @@ const task2 = () => {
     }
   
     return [`${operand1} ${operator[indexOPer]} ${operand2}`, answer];
-  };
-  
+};
+
 gameBody('What is the result of the expression?', task2);

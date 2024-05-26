@@ -17,6 +17,6 @@ const brainGcd = () => {
     const answer = `${a + b}`;
   
     return [`${num1} ${num2}`, answer];
-  };
-  gameBody('Find the greatest common divisor of given numbers.', brainGcd);
-  import greeting from '../src/cli.js';
+};
+
+gameBody('Find the greatest common divisor of given numbers.', brainGcd);
